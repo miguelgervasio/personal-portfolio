@@ -3,7 +3,6 @@ import { ProjectCard } from "../ProjectCard/ProjectCard";
 import projImg1 from "../../assets/img/project-img1.png";
 import projImg2 from "../../assets/img/project-img2.jpg";
 import projImg3 from "../../assets/img/project-img3.jpg";
-import colorSharp2 from "../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import './styles.css';
@@ -79,7 +78,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }

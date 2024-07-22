@@ -1,6 +1,5 @@
 import { Col } from "react-bootstrap";
 import './styles.css';
-import { useState } from "react";
 
 export const ProjectCard = ({ linkProject, title, description, imgUrl }) => {
 
