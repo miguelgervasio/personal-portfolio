@@ -86,5 +86,20 @@
 }
 
 #mainLogo {
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 2px solid white;
+  text-decoration: underline;
+  text-align: center;
+  line-height: 55px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 575px) {
+  #mainLogo {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
