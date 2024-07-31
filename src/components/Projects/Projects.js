@@ -17,8 +17,9 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "--",
-      description: "--",
+      linkProject: "https://plann-er-gamma.vercel.app",
+      title: "Plann.er",
+      description: "Development",
       imgUrl: projImg2,
     },
     {
